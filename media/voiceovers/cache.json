@@ -1,0 +1,314 @@
+[
+  {
+    "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance.",
+    "input_data": {
+      "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "143be65667ef1534d2cb0d9cd7ecfe641fdee6ef21011520f75a6ca1edcf9a19.mp3",
+    "final_audio": "143be65667ef1534d2cb0d9cd7ecfe641fdee6ef21011520f75a6ca1edcf9a19.mp3"
+  },
+  {
+    "input_text": "An option is a contract that gives you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date.",
+    "input_data": {
+      "input_text": "An option is a contract that gives you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "27b017e2820a53ad6aae8edb3329dd053c514d2729a86801be7d1df9f30df975.mp3",
+    "final_audio": "27b017e2820a53ad6aae8edb3329dd053c514d2729a86801be7d1df9f30df975.mp3"
+  },
+  {
+    "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance.",
+    "input_data": {
+      "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "143be65667ef1534d2cb0d9cd7ecfe641fdee6ef21011520f75a6ca1edcf9a19.mp3",
+    "final_audio": "143be65667ef1534d2cb0d9cd7ecfe641fdee6ef21011520f75a6ca1edcf9a19.mp3"
+  },
+  {
+    "input_text": "An option is a contract that gives you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date.",
+    "input_data": {
+      "input_text": "An option is a contract that gives you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "27b017e2820a53ad6aae8edb3329dd053c514d2729a86801be7d1df9f30df975.mp3",
+    "final_audio": "27b017e2820a53ad6aae8edb3329dd053c514d2729a86801be7d1df9f30df975.mp3"
+  },
+  {
+    "input_text": "The Black-Scholes model, developed in 1973 by Fischer Black, Robert Merton, and Myron Scholes, made a revolutionary assumption: that stock prices follow a geometric Brownian motion with constant drift and volatility.",
+    "input_data": {
+      "input_text": "The Black-Scholes model, developed in 1973 by Fischer Black, Robert Merton, and Myron Scholes, made a revolutionary assumption: that stock prices follow a geometric Brownian motion with constant drift and volatility.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "73a812230a80c0c4da139ba8617ca15f283e3a3903e4384d0e8112a25ddd815d.mp3",
+    "final_audio": "73a812230a80c0c4da139ba8617ca15f283e3a3903e4384d0e8112a25ddd815d.mp3"
+  },
+  {
+    "input_text": "This means the stock price wanders randomly, but its percentage returns are normally distributed. We can simulate this as a 'random walk' on a logarithmic scale.",
+    "input_data": {
+      "input_text": "This means the stock price wanders randomly, but its percentage returns are normally distributed. We can simulate this as a 'random walk' on a logarithmic scale.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "ef7f1c325141dd095ebe0c414ac92408211e80cfdb20c3af6cbcf44f400b310c.mp3",
+    "final_audio": "ef7f1c325141dd095ebe0c414ac92408211e80cfdb20c3af6cbcf44f400b310c.mp3"
+  },
+  {
+    "input_text": "From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a European call option, it is C equals S times N of d1, minus K times e to the power of negative rT, times N of d2.",
+    "input_data": {
+      "input_text": "From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a European call option, it is C equals S times N of d1, minus K times e to the power of negative rT, times N of d2.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "5342e05d1fd0f0057f5db32ff755fb3fde2be2835bf939810081e621b773de47.mp3",
+    "final_audio": "5342e05d1fd0f0057f5db32ff755fb3fde2be2835bf939810081e621b773de47.mp3"
+  },
+  {
+    "input_text": "Let's visualize this. Here is the call price as a surface, depending on the current stock price and the time to expiration. Notice how the value increases with a higher stock price and decreases as time runs out.",
+    "input_data": {
+      "input_text": "Let's visualize this. Here is the call price as a surface, depending on the current stock price and the time to expiration. Notice how the value increases with a higher stock price and decreases as time runs out.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "4621d0d14922f1a49d278eb2759fb9ae4bebdaabcf78a8b9384a8346d7bc289d.mp3",
+    "final_audio": "4621d0d14922f1a49d278eb2759fb9ae4bebdaabcf78a8b9384a8346d7bc289d.mp3"
+  },
+  {
+    "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance. An option is a contract giving you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date. But how do you put a price on a right? This is the problem that three economists solved, and in doing so, they transformed Wall Street forever.",
+    "input_data": {
+      "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance. An option is a contract giving you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date. But how do you put a price on a right? This is the problem that three economists solved, and in doing so, they transformed Wall Street forever.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "959ac88f45a07b6aa236370a76c1b1886b21cf74c705199eee76589b42800c52.mp3",
+    "final_audio": "959ac88f45a07b6aa236370a76c1b1886b21cf74c705199eee76589b42800c52.mp3"
+  },
+  {
+    "input_text": "Let's visualize a simple call option. The horizontal axis is the stock price at expiration. The vertical axis is your payoff. If the stock price finishes below the strike price, the option is worthless. But if it rises above the strike, your payoff grows, dollar for dollar. This is the famous hockey stick payoff.",
+    "input_data": {
+      "input_text": "Let's visualize a simple call option. The horizontal axis is the stock price at expiration. The vertical axis is your payoff. If the stock price finishes below the strike price, the option is worthless. But if it rises above the strike, your payoff grows, dollar for dollar. This is the famous hockey stick payoff.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "d53da06a569e473a93be5c0f9785eb564cc60fe0bf1bf0cf50fd622ee2871dce.mp3",
+    "final_audio": "d53da06a569e473a93be5c0f9785eb564cc60fe0bf1bf0cf50fd622ee2871dce.mp3"
+  },
+  {
+    "input_text": "In the early 1970s, Fischer Black, Myron Scholes, and Robert Merton achieved a major breakthrough. They didn't just find a formula; they discovered a fundamental principle of finance. Their insight was that you could perfectly hedge an option by continuously trading the underlying stock. By creating a riskless portfolio, they could price the option using the risk-free rate. This idea, known as no-arbitrage, earned Scholes and Merton the Nobel Prize in Economics in 1997. Fischer Black had passed away, but his name lives on in the model.",
+    "input_data": {
+      "input_text": "In the early 1970s, Fischer Black, Myron Scholes, and Robert Merton achieved a major breakthrough. They didn't just find a formula; they discovered a fundamental principle of finance. Their insight was that you could perfectly hedge an option by continuously trading the underlying stock. By creating a riskless portfolio, they could price the option using the risk-free rate. This idea, known as no-arbitrage, earned Scholes and Merton the Nobel Prize in Economics in 1997. Fischer Black had passed away, but his name lives on in the model.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "9ec0ac73a7243feadd90e98da16c02e4e4ee46196b5edf93bf2719e676a19e34.mp3",
+    "final_audio": "9ec0ac73a7243feadd90e98da16c02e4e4ee46196b5edf93bf2719e676a19e34.mp3"
+  },
+  {
+    "input_text": "The Black-Scholes model is built on a set of elegant, albeit strict, assumptions. First, the stock price follows a geometric Brownian motion with constant drift and volatility. Second, there are no transaction costs or taxes. Third, the risk-free interest rate is constant and known. Fourth, the stock pays no dividends during the option's life. And fifth, trading is continuous, and short-selling is allowed. These assumptions create a perfect, frictionless market where a unique price can be derived.",
+    "input_data": {
+      "input_text": "The Black-Scholes model is built on a set of elegant, albeit strict, assumptions. First, the stock price follows a geometric Brownian motion with constant drift and volatility. Second, there are no transaction costs or taxes. Third, the risk-free interest rate is constant and known. Fourth, the stock pays no dividends during the option's life. And fifth, trading is continuous, and short-selling is allowed. These assumptions create a perfect, frictionless market where a unique price can be derived.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "363776857d39a52750c44a406130e6cd69b6e8e9ec23e1172eeacd0606dadd06.mp3",
+    "final_audio": "363776857d39a52750c44a406130e6cd69b6e8e9ec23e1172eeacd0606dadd06.mp3"
+  },
+  {
+    "input_text": "At the heart of the model is the idea that stock prices wander randomly, like a particle in a fluid. This is called geometric Brownian motion. While the exact path is unpredictable, the logarithm of the price is normally distributed. This means we can model the probability of future prices using a bell curve. Let's simulate a few possible paths a stock might take over one year.",
+    "input_data": {
+      "input_text": "At the heart of the model is the idea that stock prices wander randomly, like a particle in a fluid. This is called geometric Brownian motion. While the exact path is unpredictable, the logarithm of the price is normally distributed. This means we can model the probability of future prices using a bell curve. Let's simulate a few possible paths a stock might take over one year.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "be7674efe5ee770534426ea1fed482b47d055412e7e8725e6d081405f125f2e0.mp3",
+    "final_audio": "be7674efe5ee770534426ea1fed482b47d055412e7e8725e6d081405f125f2e0.mp3"
+  },
+  {
+    "input_text": "From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a European call option, it is C equals S times N of d1, minus K times e to the power of negative rT, times N of d2. Here, S is the current stock price, K is the strike price, r is the risk-free rate, T is the time to expiration, and sigma is the volatility. N of x is the cumulative distribution function of the standard normal distribution. The terms d1 and d2 combine these variables into a standardized measure of how far the stock price is from the strike.",
+    "input_data": {
+      "input_text": "From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a European call option, it is C equals S times N of d1, minus K times e to the power of negative rT, times N of d2. Here, S is the current stock price, K is the strike price, r is the risk-free rate, T is the time to expiration, and sigma is the volatility. N of x is the cumulative distribution function of the standard normal distribution. The terms d1 and d2 combine these variables into a standardized measure of how far the stock price is from the strike.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "4aaa74c350fb67b26721b83d43f5685678c72ca754e204de13e2b97b49ee7909.mp3",
+    "final_audio": "4aaa74c350fb67b26721b83d43f5685678c72ca754e204de13e2b97b49ee7909.mp3"
+  },
+  {
+    "input_text": "Let's bring this formula to life. This 3D surface shows the call price as a function of two variables: the current stock price on the x-axis, and the time to expiration on the y-axis. Notice how the option value increases as the stock price rises. It also increases with more time to expiration, because more time means more uncertainty, and more potential for the stock to move favorably. As time runs out, the surface drops toward the intrinsic payoff we saw earlier. This is the Black-Scholes model in motion.",
+    "input_data": {
+      "input_text": "Let's bring this formula to life. This 3D surface shows the call price as a function of two variables: the current stock price on the x-axis, and the time to expiration on the y-axis. Notice how the option value increases as the stock price rises. It also increases with more time to expiration, because more time means more uncertainty, and more potential for the stock to move favorably. As time runs out, the surface drops toward the intrinsic payoff we saw earlier. This is the Black-Scholes model in motion.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "d8313e2c3cf0427a3f22a3615e4869860e0aa24c3eecf3099ca20740ded77eb7.mp3",
+    "final_audio": "d8313e2c3cf0427a3f22a3615e4869860e0aa24c3eecf3099ca20740ded77eb7.mp3"
+  },
+  {
+    "input_text": "The model also gives us the Greeks: Delta, Gamma, Theta, Vega, and Rho. These are the risk management tools of the options trader. Delta measures the change in option price for a one-dollar move in the stock. Gamma measures how fast Delta changes. Theta measures the decay of the option's value as time passes. Vega measures sensitivity to volatility. And Rho measures sensitivity to interest rates. Together, these Greeks allow traders to build and hedge complex portfolios with precision.",
+    "input_data": {
+      "input_text": "The model also gives us the Greeks: Delta, Gamma, Theta, Vega, and Rho. These are the risk management tools of the options trader. Delta measures the change in option price for a one-dollar move in the stock. Gamma measures how fast Delta changes. Theta measures the decay of the option's value as time passes. Vega measures sensitivity to volatility. And Rho measures sensitivity to interest rates. Together, these Greeks allow traders to build and hedge complex portfolios with precision.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "26ddd4155746f4d5755b4ba31e3e149ee9edba7e55b3f1407d7f7da5fe670309.mp3",
+    "final_audio": "26ddd4155746f4d5755b4ba31e3e149ee9edba7e55b3f1407d7f7da5fe670309.mp3"
+  },
+  {
+    "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance. An option is a contract giving you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date. But how do you put a price on a right? This is the problem that three economists solved, and in doing so, they transformed Wall Street forever.",
+    "input_data": {
+      "input_text": "What is the fair price of a financial option? For decades, this was one of the most difficult questions in finance. An option is a contract giving you the right, but not the obligation, to buy or sell an asset at a specific price, called the strike price, on a specific date. But how do you put a price on a right? This is the problem that three economists solved, and in doing so, they transformed Wall Street forever.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "959ac88f45a07b6aa236370a76c1b1886b21cf74c705199eee76589b42800c52.mp3",
+    "final_audio": "959ac88f45a07b6aa236370a76c1b1886b21cf74c705199eee76589b42800c52.mp3"
+  },
+  {
+    "input_text": "Let's visualize a simple call option. The horizontal axis is the stock price at expiration. The vertical axis is your payoff. If the stock price finishes below the strike price, the option is worthless. But if it rises above the strike, your payoff grows, dollar for dollar. This is the famous hockey stick payoff.",
+    "input_data": {
+      "input_text": "Let's visualize a simple call option. The horizontal axis is the stock price at expiration. The vertical axis is your payoff. If the stock price finishes below the strike price, the option is worthless. But if it rises above the strike, your payoff grows, dollar for dollar. This is the famous hockey stick payoff.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "d53da06a569e473a93be5c0f9785eb564cc60fe0bf1bf0cf50fd622ee2871dce.mp3",
+    "final_audio": "d53da06a569e473a93be5c0f9785eb564cc60fe0bf1bf0cf50fd622ee2871dce.mp3"
+  },
+  {
+    "input_text": "In the early 1970s, Fischer Black, Myron Scholes, and Robert Merton achieved a major breakthrough. They didn't just find a formula; they discovered a fundamental principle of finance. Their insight was that you could perfectly hedge an option by continuously trading the underlying stock. By creating a riskless portfolio, they could price the option using the risk-free rate. This idea, known as no-arbitrage, earned Scholes and Merton the Nobel Prize in Economics in 1997. Fischer Black had passed away, but his name lives on in the model.",
+    "input_data": {
+      "input_text": "In the early 1970s, Fischer Black, Myron Scholes, and Robert Merton achieved a major breakthrough. They didn't just find a formula; they discovered a fundamental principle of finance. Their insight was that you could perfectly hedge an option by continuously trading the underlying stock. By creating a riskless portfolio, they could price the option using the risk-free rate. This idea, known as no-arbitrage, earned Scholes and Merton the Nobel Prize in Economics in 1997. Fischer Black had passed away, but his name lives on in the model.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "9ec0ac73a7243feadd90e98da16c02e4e4ee46196b5edf93bf2719e676a19e34.mp3",
+    "final_audio": "9ec0ac73a7243feadd90e98da16c02e4e4ee46196b5edf93bf2719e676a19e34.mp3"
+  },
+  {
+    "input_text": "The Black-Scholes model is built on a set of elegant, albeit strict, assumptions. First, the stock price follows a geometric Brownian motion with constant drift and volatility. Second, there are no transaction costs or taxes. Third, the risk-free interest rate is constant and known. Fourth, the stock pays no dividends during the option's life. And fifth, trading is continuous, and short-selling is allowed. These assumptions create a perfect, frictionless market where a unique price can be derived.",
+    "input_data": {
+      "input_text": "The Black-Scholes model is built on a set of elegant, albeit strict, assumptions. First, the stock price follows a geometric Brownian motion with constant drift and volatility. Second, there are no transaction costs or taxes. Third, the risk-free interest rate is constant and known. Fourth, the stock pays no dividends during the option's life. And fifth, trading is continuous, and short-selling is allowed. These assumptions create a perfect, frictionless market where a unique price can be derived.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "363776857d39a52750c44a406130e6cd69b6e8e9ec23e1172eeacd0606dadd06.mp3",
+    "final_audio": "363776857d39a52750c44a406130e6cd69b6e8e9ec23e1172eeacd0606dadd06.mp3"
+  },
+  {
+    "input_text": "At the heart of the model is the idea that stock prices wander randomly, like a particle in a fluid. This is called geometric Brownian motion. While the exact path is unpredictable, the logarithm of the price is normally distributed. This means we can model the probability of future prices using a bell curve. Let's simulate a few possible paths a stock might take over one year.",
+    "input_data": {
+      "input_text": "At the heart of the model is the idea that stock prices wander randomly, like a particle in a fluid. This is called geometric Brownian motion. While the exact path is unpredictable, the logarithm of the price is normally distributed. This means we can model the probability of future prices using a bell curve. Let's simulate a few possible paths a stock might take over one year.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "be7674efe5ee770534426ea1fed482b47d055412e7e8725e6d081405f125f2e0.mp3",
+    "final_audio": "be7674efe5ee770534426ea1fed482b47d055412e7e8725e6d081405f125f2e0.mp3"
+  },
+  {
+    "input_text": "From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a European call option, it is C equals S times N of d1, minus K times e to the power of negative rT, times N of d2. Here, S is the current stock price, K is the strike price, r is the risk-free rate, T is the time to expiration, and sigma is the volatility. N of x is the cumulative distribution function of the standard normal distribution. The terms d1 and d2 combine these variables into a standardized measure of how far the stock price is from the strike.",
+    "input_data": {
+      "input_text": "From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a European call option, it is C equals S times N of d1, minus K times e to the power of negative rT, times N of d2. Here, S is the current stock price, K is the strike price, r is the risk-free rate, T is the time to expiration, and sigma is the volatility. N of x is the cumulative distribution function of the standard normal distribution. The terms d1 and d2 combine these variables into a standardized measure of how far the stock price is from the strike.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "4aaa74c350fb67b26721b83d43f5685678c72ca754e204de13e2b97b49ee7909.mp3",
+    "final_audio": "4aaa74c350fb67b26721b83d43f5685678c72ca754e204de13e2b97b49ee7909.mp3"
+  },
+  {
+    "input_text": "Let's bring this formula to life. This 3D surface shows the call price as a function of two variables: the current stock price on the x-axis, and the time to expiration on the y-axis. Notice how the option value increases as the stock price rises. It also increases with more time to expiration, because more time means more uncertainty, and more potential for the stock to move favorably. As time runs out, the surface drops toward the intrinsic payoff we saw earlier. This is the Black-Scholes model in motion.",
+    "input_data": {
+      "input_text": "Let's bring this formula to life. This 3D surface shows the call price as a function of two variables: the current stock price on the x-axis, and the time to expiration on the y-axis. Notice how the option value increases as the stock price rises. It also increases with more time to expiration, because more time means more uncertainty, and more potential for the stock to move favorably. As time runs out, the surface drops toward the intrinsic payoff we saw earlier. This is the Black-Scholes model in motion.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "d8313e2c3cf0427a3f22a3615e4869860e0aa24c3eecf3099ca20740ded77eb7.mp3",
+    "final_audio": "d8313e2c3cf0427a3f22a3615e4869860e0aa24c3eecf3099ca20740ded77eb7.mp3"
+  },
+  {
+    "input_text": "The model also gives us the Greeks: Delta, Gamma, Theta, Vega, and Rho. These are the risk management tools of the options trader. Delta measures the change in option price for a one-dollar move in the stock. Gamma measures how fast Delta changes. Theta measures the decay of the option's value as time passes. Vega measures sensitivity to volatility. And Rho measures sensitivity to interest rates. Together, these Greeks allow traders to build and hedge complex portfolios with precision.",
+    "input_data": {
+      "input_text": "The model also gives us the Greeks: Delta, Gamma, Theta, Vega, and Rho. These are the risk management tools of the options trader. Delta measures the change in option price for a one-dollar move in the stock. Gamma measures how fast Delta changes. Theta measures the decay of the option's value as time passes. Vega measures sensitivity to volatility. And Rho measures sensitivity to interest rates. Together, these Greeks allow traders to build and hedge complex portfolios with precision.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "26ddd4155746f4d5755b4ba31e3e149ee9edba7e55b3f1407d7f7da5fe670309.mp3",
+    "final_audio": "26ddd4155746f4d5755b4ba31e3e149ee9edba7e55b3f1407d7f7da5fe670309.mp3"
+  },
+  {
+    "input_text": "Of course, the real world is not as perfect as the model's assumptions. Markets can jump, volatility is not constant, and transaction costs exist. The 1987 stock market crash, known as Black Monday, exposed some of these limitations when the model's prices diverged dramatically from reality. This led to the development of more advanced models, like stochastic volatility and jump-diffusion models. But the Black-Scholes model remains the foundation, the benchmark against which all other models are measured.",
+    "input_data": {
+      "input_text": "Of course, the real world is not as perfect as the model's assumptions. Markets can jump, volatility is not constant, and transaction costs exist. The 1987 stock market crash, known as Black Monday, exposed some of these limitations when the model's prices diverged dramatically from reality. This led to the development of more advanced models, like stochastic volatility and jump-diffusion models. But the Black-Scholes model remains the foundation, the benchmark against which all other models are measured.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "b716988b72c1e24e7f8f0df286f1171bc17f0b5db7ac5c99df021808a34b0ec4.mp3",
+    "final_audio": "b716988b72c1e24e7f8f0df286f1171bc17f0b5db7ac5c99df021808a34b0ec4.mp3"
+  },
+  {
+    "input_text": "The Black-Scholes model transformed finance. It gave the world a common language for pricing risk. While its assumptions don't always hold, its legacy is undeniable. It earned a Nobel Prize, spawned a multi-trillion-dollar derivatives industry, and forever changed how we understand uncertainty. The fair price of an option is no longer a mystery. It is a formula, a model, and a monument to human ingenuity.",
+    "input_data": {
+      "input_text": "The Black-Scholes model transformed finance. It gave the world a common language for pricing risk. While its assumptions don't always hold, its legacy is undeniable. It earned a Nobel Prize, spawned a multi-trillion-dollar derivatives industry, and forever changed how we understand uncertainty. The fair price of an option is no longer a mystery. It is a formula, a model, and a monument to human ingenuity.",
+      "service": "kokoro_self",
+      "voice": "af_nicole",
+      "lang": "en-us",
+      "volume": 1.0
+    },
+    "original_audio": "8d3ed08ca01b2ba9ad70c7be1318477b32e1515b9dd6290b3ad788b4d2c2724b.mp3",
+    "final_audio": "8d3ed08ca01b2ba9ad70c7be1318477b32e1515b9dd6290b3ad788b4d2c2724b.mp3"
+  }
+]

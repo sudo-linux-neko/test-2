@@ -1,0 +1,280 @@
+1
+00:00:00,000 --> 00:00:06,205
+What is the fair price of a financial option? For decades, this was one
+
+2
+00:00:06,305 --> 00:00:13,132
+of the most difficult questions in finance. An option is a contract giving you
+
+3
+00:00:13,232 --> 00:00:18,728
+the right, but not the obligation, to buy or sell an asset at a
+
+4
+00:00:18,828 --> 00:00:25,388
+specific price, called the strike price, on a specific date. But how do you
+
+5
+00:00:25,488 --> 00:00:31,872
+put a price on a right? This is the problem that three economists solved,
+
+6
+00:00:31,972 --> 00:00:36,668
+and in doing so, they transformed Wall Street forever.
+
+7
+00:00:37,768 --> 00:00:43,995
+Let's visualize a simple call option. The horizontal axis is the
+
+8
+00:00:44,095 --> 00:00:50,223
+stock price at expiration. The vertical axis is your payoff. If
+
+9
+00:00:50,323 --> 00:00:56,353
+the stock price finishes below the strike price, the option is
+
+10
+00:00:56,453 --> 00:01:02,581
+worthless. But if it rises above the strike, your payoff grows,
+
+11
+00:01:02,681 --> 00:01:08,316
+dollar for dollar. This is the famous hockey stick payoff.
+
+12
+00:01:09,416 --> 00:01:16,229
+In the early 1970s, Fischer Black, Myron Scholes, and Robert Merton
+
+13
+00:01:16,329 --> 00:01:23,246
+achieved a major breakthrough. They didn't just find a formula; they
+
+14
+00:01:23,346 --> 00:01:30,779
+discovered a fundamental principle of finance. Their insight was that you
+
+15
+00:01:30,879 --> 00:01:38,725
+could perfectly hedge an option by continuously trading the underlying stock.
+
+16
+00:01:38,825 --> 00:01:45,639
+By creating a riskless portfolio, they could price the option using
+
+17
+00:01:45,739 --> 00:01:53,068
+the risk-free rate. This idea, known as no-arbitrage, earned Scholes and
+
+18
+00:01:53,168 --> 00:01:59,466
+Merton the Nobel Prize in Economics in 1997. Fischer Black had
+
+19
+00:01:59,566 --> 00:02:04,420
+passed away, but his name lives on in the model.
+
+20
+00:02:05,520 --> 00:02:10,669
+The Black-Scholes model is built on a set of elegant,
+
+21
+00:02:10,769 --> 00:02:17,603
+albeit strict, assumptions. First, the stock price follows a geometric
+
+22
+00:02:17,703 --> 00:02:24,438
+Brownian motion with constant drift and volatility. Second, there are
+
+23
+00:02:24,538 --> 00:02:30,877
+no transaction costs or taxes. Third, the risk-free interest rate
+
+24
+00:02:30,977 --> 00:02:36,622
+is constant and known. Fourth, the stock pays no dividends
+
+25
+00:02:36,722 --> 00:02:42,862
+during the option's life. And fifth, trading is continuous, and
+
+26
+00:02:42,962 --> 00:02:50,886
+short-selling is allowed. These assumptions create a perfect, frictionless market
+
+27
+00:02:50,986 --> 00:02:54,452
+where a unique price can be derived.
+
+28
+00:02:55,552 --> 00:03:00,746
+At the heart of the model is the idea that stock prices
+
+29
+00:03:00,846 --> 00:03:07,387
+wander randomly, like a particle in a fluid. This is called geometric
+
+30
+00:03:07,487 --> 00:03:14,703
+Brownian motion. While the exact path is unpredictable, the logarithm of the
+
+31
+00:03:14,803 --> 00:03:21,729
+price is normally distributed. This means we can model the probability of
+
+32
+00:03:21,829 --> 00:03:28,371
+future prices using a bell curve. Let's simulate a few possible paths
+
+33
+00:03:28,471 --> 00:03:31,548
+a stock might take over one year.
+
+34
+00:03:33,148 --> 00:03:43,040
+From these assumptions, they derived a closed-form solution: the Black-Scholes formula. For a
+
+35
+00:03:43,140 --> 00:03:49,380
+European call option, it is C equals S times N of d1, minus
+
+36
+00:03:49,480 --> 00:03:55,075
+K times e to the power of negative rT, times N of d2.
+
+37
+00:03:55,175 --> 00:04:01,522
+Here, S is the current stock price, K is the strike price, r
+
+38
+00:04:01,622 --> 00:04:08,398
+is the risk-free rate, T is the time to expiration, and sigma is
+
+39
+00:04:08,498 --> 00:04:16,779
+the volatility. N of x is the cumulative distribution function of the standard
+
+40
+00:04:16,879 --> 00:04:25,805
+normal distribution. The terms d1 and d2 combine these variables into a standardized
+
+41
+00:04:25,905 --> 00:04:31,608
+measure of how far the stock price is from the strike.
+
+42
+00:04:32,708 --> 00:04:39,129
+Let's bring this formula to life. This 3D surface shows the call
+
+43
+00:04:39,229 --> 00:04:45,650
+price as a function of two variables: the current stock price on
+
+44
+00:04:45,750 --> 00:04:52,171
+the x-axis, and the time to expiration on the y-axis. Notice how
+
+45
+00:04:52,271 --> 00:04:59,303
+the option value increases as the stock price rises. It also increases
+
+46
+00:04:59,403 --> 00:05:06,945
+with more time to expiration, because more time means more uncertainty, and
+
+47
+00:05:07,045 --> 00:05:13,569
+more potential for the stock to move favorably. As time runs out,
+
+48
+00:05:13,669 --> 00:05:20,599
+the surface drops toward the intrinsic payoff we saw earlier. This is
+
+49
+00:05:20,699 --> 00:05:24,064
+the Black-Scholes model in motion.
+
+50
+00:05:25,164 --> 00:05:31,740
+The model also gives us the Greeks: Delta, Gamma, Theta, Vega, and
+
+51
+00:05:31,840 --> 00:05:38,720
+Rho. These are the risk management tools of the options trader. Delta
+
+52
+00:05:38,820 --> 00:05:45,194
+measures the change in option price for a one-dollar move in the
+
+53
+00:05:45,294 --> 00:05:52,578
+stock. Gamma measures how fast Delta changes. Theta measures the decay of
+
+54
+00:05:52,678 --> 00:06:00,570
+the option's value as time passes. Vega measures sensitivity to volatility. And
+
+55
+00:06:00,670 --> 00:06:08,966
+Rho measures sensitivity to interest rates. Together, these Greeks allow traders to
+
+56
+00:06:09,066 --> 00:06:14,024
+build and hedge complex portfolios with precision.
+
+57
+00:06:15,130 --> 00:06:19,666
+Of course, the real world is not as perfect as
+
+58
+00:06:19,766 --> 00:06:26,720
+the model's assumptions. Markets can jump, volatility is not constant,
+
+59
+00:06:26,820 --> 00:06:33,068
+and transaction costs exist. The 1987 stock market crash, known
+
+60
+00:06:33,168 --> 00:06:39,014
+as Black Monday, exposed some of these limitations when the
+
+61
+00:06:39,114 --> 00:06:45,665
+model's prices diverged dramatically from reality. This led to the
+
+62
+00:06:45,765 --> 00:06:53,928
+development of more advanced models, like stochastic volatility and jump-diffusion
+
+63
+00:06:54,028 --> 00:07:01,284
+models. But the Black-Scholes model remains the foundation, the benchmark
+
+64
+00:07:01,384 --> 00:07:05,718
+against which all other models are measured.
+
+65
+00:07:06,864 --> 00:07:13,419
+The Black-Scholes model transformed finance. It gave the world a common
+
+66
+00:07:13,519 --> 00:07:20,074
+language for pricing risk. While its assumptions don't always hold, its
+
+67
+00:07:20,174 --> 00:07:27,386
+legacy is undeniable. It earned a Nobel Prize, spawned a multi-trillion-dollar
+
+68
+00:07:27,486 --> 00:07:34,978
+derivatives industry, and forever changed how we understand uncertainty. The fair
+
+69
+00:07:35,078 --> 00:07:39,478
+price of an option is no longer a mystery. It is
+
+70
+00:07:39,578 --> 00:07:44,540
+a formula, a model, and a monument to human ingenuity.
+
